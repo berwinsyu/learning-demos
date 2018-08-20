@@ -27,17 +27,14 @@
       </file>
       <file leaf-file-name="ClassLoaderObserver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/ClassLoaderObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="MyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jvm-demos/src/test/java/MyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="405">
+              <caret line="15" lean-forward="true" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,8 +45,20 @@
       <file leaf-file-name="CustomClassLoader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/config/classloader/CustomClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingTesterWithNoStopWatchClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jvm-demos/src/test/java/LoadingTesterWithNoStopWatchClass.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +69,8 @@
       <file leaf-file-name="StopWatchFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/StopWatchFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="378">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,10 +115,11 @@
         <option value="$PROJECT_DIR$/java-utils/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jvm-demos/pom.xml" />
-        <option value="$PROJECT_DIR$/jvm-demos/src/main/java/ClassLoaderObserver.java" />
         <option value="$PROJECT_DIR$/java-demo-utils/src/main/java/indi/berwin/demo/utils/RunTimeUtil.java" />
-        <option value="$PROJECT_DIR$/jvm-demos/src/main/java/StopWatchFactory.java" />
         <option value="$PROJECT_DIR$/jvm-demos/src/main/java/config/classloader/CustomClassLoader.java" />
+        <option value="$PROJECT_DIR$/jvm-demos/src/test/java/LoadingTesterWithNoStopWatchClass.java" />
+        <option value="$PROJECT_DIR$/jvm-demos/src/main/java/StopWatchFactory.java" />
+        <option value="$PROJECT_DIR$/jvm-demos/src/main/java/ClassLoaderObserver.java" />
         <option value="$PROJECT_DIR$/jvm-demos/src/test/java/MyTest.java" />
       </list>
     </option>
@@ -280,9 +290,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.testStopWatch">
+  <component name="RunManager" selected="JUnit.LoadingTesterWithNoStopWatchClass.testStopWatch">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LoadingTesterWithNoStopWatchClass.testStopWatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvm-demos" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoadingTesterWithNoStopWatchClass" />
+      <option name="METHOD_NAME" value="testStopWatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="MyTest.runTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jvm-demos" />
@@ -377,9 +404,11 @@
       <item itemvalue="JUnit.MyTest.runTest" />
       <item itemvalue="JUnit.MyTest.testClassLoaderPath" />
       <item itemvalue="JUnit.MyTest.testStopWatch" />
+      <item itemvalue="JUnit.LoadingTesterWithNoStopWatchClass.testStopWatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoadingTesterWithNoStopWatchClass.testStopWatch" />
         <item itemvalue="JUnit.MyTest.testStopWatch" />
         <item itemvalue="JUnit.MyTest.testClassLoaderPath" />
         <item itemvalue="JUnit.MyTest.runTest" />
@@ -397,17 +426,11 @@
       <option name="presentableId" value="Default" />
       <updated>1534748597280</updated>
       <workItem from="1534748602108" duration="5212000" />
-      <workItem from="1534760327207" duration="851000" />
+      <workItem from="1534760327207" duration="1482000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyTest_testStopWatch - 2018.08.20 at 18h 22m 52s.xml">
-      <configuration name="MyTest.testStopWatch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest_testStopWatch - 2018.08.20 at 18h 23m 38s.xml">
-      <configuration name="MyTest.testStopWatch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyTest_testStopWatch - 2018.08.20 at 18h 24m 19s.xml">
       <configuration name="MyTest.testStopWatch" configurationId="JUnit" />
     </history-entry>
@@ -432,9 +455,15 @@
     <history-entry file="MyTest_testStopWatch - 2018.08.20 at 18h 32m 06s.xml">
       <configuration name="MyTest.testStopWatch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyTest_testStopWatch - 2018.08.20 at 18h 33m 02s.xml">
+      <configuration name="MyTest.testStopWatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testStopWatch - 2018.08.20 at 18h 36m 15s.xml">
+      <configuration name="MyTest.testStopWatch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6063000" />
+    <option name="totallyTimeSpent" value="6694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -476,6 +505,19 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jvm-demos/src/main/java/config/classloader/CustomClassLoader.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jvm-demos/pom.xml">
@@ -575,36 +617,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/ClassLoaderObserver.java">
+    <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/config/classloader/CustomClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="243">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/StopWatchFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="378">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/config/classloader/CustomClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/jvm-demos/src/test/java/LoadingTesterWithNoStopWatchClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm-demos/src/main/java/ClassLoaderObserver.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jvm-demos/src/test/java/MyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="405">
+          <caret line="15" lean-forward="true" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,5 @@
 import config.classloader.CustomClassLoader;
 import indi.berwin.demo.utils.DebugUtil;
-import org.apache.commons.lang3.time.StopWatch;
 
 import java.net.URL;
 
@@ -14,8 +13,8 @@ public class StopWatchFactory {
             DebugUtil.wc(e.toString());
         }
     }
-    public static StopWatch getStopWatch() throws Exception{
+    public static Object getStopWatch() throws Exception{
         CustomClassLoader customClassLoader = new CustomClassLoader(url);
-        return (StopWatch)customClassLoader.getInstance("org.apache.commons.lang3.time.StopWatch");
+        return customClassLoader.getInstance("org.apache.commons.lang3.time.StopWatch");
     }
 }

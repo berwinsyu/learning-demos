@@ -1,5 +1,3 @@
-import org.apache.commons.lang3.time.StopWatch;
-
 public class ClassLoaderObserver {
 
     public static String getPathOfBCL(){
