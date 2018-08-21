@@ -7,7 +7,7 @@ public class StopWatchFactory {
     private static URL url;
     static {
         try {
-            url = new URL("file:E:\\Windey_E\\berwinws\\learning-demos\\java-learning-demos\\jvm-demos\\lib\\commons-lang3-3.5.jar");
+            url = new URL("file:D:\\berwinws\\learning-demos\\java-learning-demos\\jvm-demos\\lib\\commons-lang3-3.5.jar");
         }
         catch (Exception e){
             DebugUtil.wc(e.toString());

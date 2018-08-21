@@ -9,7 +9,7 @@ public class CustomClassLoader {
 
     public CustomClassLoader(URL url){
         this.url = url;
-        this.classLoader = new URLClassLoader(new URL[] {this.url});
+        this.classLoader = new URLClassLoader(new URL[] {this.url}, null);
     }
 
     public Object getInstance(String className) throws Exception{
