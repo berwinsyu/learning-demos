@@ -12,6 +12,7 @@
         <module>jvm-demos</module>
         <module>java-demo-utils</module>
         <module>network-demos</module>
+        <module>lan-spec-demos</module>
     </modules>
 
     <dependencies>
