@@ -17,16 +17,11 @@
       <file leaf-file-name="LoadingTesterWithNoStopWatchClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvm-demos/src/test/java/LoadingTesterWithNoStopWatchClass.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="378">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-=======
             <state relative-caret-position="504">
               <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 5397b2db960bc29582721fff142b74c1cedd0f5d
             </state>
           </provider>
         </entry>

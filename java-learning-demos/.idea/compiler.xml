@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="java-demo-utils" />
         <module name="jvm-demos" />
+        <module name="network-demos" />
       </profile>
     </annotationProcessing>
   </component>

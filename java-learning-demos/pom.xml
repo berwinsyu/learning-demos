@@ -11,9 +11,15 @@
     <modules>
         <module>jvm-demos</module>
         <module>java-demo-utils</module>
+        <module>network-demos</module>
     </modules>
 
     <dependencies>
+        <dependency>
+            <groupId>indi.berwin</groupId>
+            <artifactId>java-demo-utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
